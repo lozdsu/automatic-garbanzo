@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打卡</title>
+    <link rel="stylesheet" href="css/checkin.css">
+</head>
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">打卡</h1>
+        
+        <button id="toggle-form" class="toggle-btn">添加新项目 +</button>
+        
+        <form id="add-item-form" class="add-item-form hidden">
+            <input type="text" id="new-item-input" placeholder="输入新的打卡项目..." required>
+            <button type="submit">添加</button>
+        </form>
+
+        <div id="checkin-list" class="checkin-list"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
